@@ -15,7 +15,7 @@ jobs:
       - name: Check version bump
         run: |
           current_version=$(cat VERSION)
-          previous_version=$(git show main:VERSION 2>/dev/null || echo "0.0.0")
+          previous_version=$(git show HEAD^:VERSION 2>/dev/null || echo "0.0.0")
           
           echo "Current version: $current_version"
           echo "Previous version: $previous_version"
