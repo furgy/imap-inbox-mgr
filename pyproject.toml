@@ -1,5 +1,5 @@
 [project]
 name = "imap-inbox-mgr"
-version = "0.1.1"
+version = "0.1.2"
 description = "IMAP Inbox Manager"
 requires-python = ">=3.7"
